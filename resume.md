@@ -21,7 +21,7 @@ Percentage: 85.3/100
 
 ### <span>Technical Writing Intern at GeeksforGeeks </span> <span class="technologies">October 2021 -- present</span>
 
-GeeksforGeeks is the most popular portal for articles on various programming languages and frameworks. I contributed some articles on Dart and Flutter.
+GeeksforGeeks is the most popular portal for articles on various programming languages and frameworks. I contributed some articles on Dart and Flutter. I learned about architechture and unit testing in Flutter.
 
 ## Projects
 
@@ -38,7 +38,7 @@ A social app for competitive programmers to see each others ratings and ranking 
 An app that allows people to chat in chat rooms with songs playing in background and members of the chat room can change and control song's playback via voting.
 
 - Frontend built with **Flutter**
-- Backend built with **Node-js**, **Express-js**, **Socket-io**, **cors** and **MongoDB**
+- Backend built with **Node-js**, **Express-js**, **Socket-io** and **MongoDB**
 
 ## Achievements
 
