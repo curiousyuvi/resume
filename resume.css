@@ -35,9 +35,9 @@ h2 {
   border-bottom: 1px dotted var(--accent-color-light);
   font-size: 130%;
   font-weight: 800;
-  margin: 13px 0 0 0;
+  margin: 5px 0 0 0;
   padding-bottom: 0;
-  padding-top: 20;
+  padding-top: 8;
 
 }
 h3 {

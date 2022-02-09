@@ -19,7 +19,11 @@ Percentage: 85.3/100
 
 ## Experience
 
-### <span>Technical Writing Intern at GeeksforGeeks </span> <span class="technologies">October 2021 -- present</span>
+### <span>Flutter App Developer Intern @ [Coding Jr](https://codingjr.in/) </span> <span class="technologies">November 2021 -- present</span>
+
+Coding Jr is an Ed-Tech startup that provides online learning platforms to institutions, schools, coachings ,etc. I'm working on various flutter projects, I learned GetX architechture, maintaining and debugging large scale flutter projects, also I'm learning new things every day.
+
+### <span>Technical Writing Intern @ [GeeksforGeeks](https://www.geeksforgeeks.org/) </span> <span class="technologies">September 2021 -- November 2021</span>
 
 GeeksforGeeks is the most popular portal for articles on various programming languages and frameworks. I contributed some articles on Dart and Flutter. I learned about architechture and unit testing in Flutter.
 
