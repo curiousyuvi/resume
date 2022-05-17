@@ -54,10 +54,10 @@ A web app to search lyrics for all of your favourite songs.
 
 - Global rank **37 of 1700+** in **CodeChef May Lunchtime 2022** (Div. 3).
 - Global rank **61 of 13400+** in **CodeChef May Long One 2022** (Div. 4).
-- **5 star** at HackerRank in Problem Solving, C++, Java, Javascript and Python.
+- **5 star** at HackerRank in Problem Solving, C, C++, Java, and Javascript.
 
 ## Skills & Technologies
 
 - **Languages**: C/C++, Dart, HTML, CSS, Javascript/Typescript, Java, Kotlin, Python
-- **Frameworks**: Flutter, React.js, Next.js, Kotlin-Compose, Firebase & Firestore
+- **Frameworks**: Flutter, React.js, Next.js, Node.js, Express.js, Firebase & Firestore, MongoDB
 - **Tools**: Git, Github, VSCode, Android Studio, Postman, Figma, Linux, Rive
