@@ -37,7 +37,7 @@ h1 {
 }
 h2 {
   color: var(--accent-color);
-  border-bottom: 0.3px solid var(--accent-color-light);
+  border-bottom: 0.1em dashed var(--accent-color-light);
   font-size: 100%;
   font-weight: 800;
   margin: 15px 0 0 0;
@@ -60,11 +60,13 @@ p {
   padding: 0;
 }
 ul {
-  padding: 5px;
+  padding: 0px 5px;
   margin: 0 0;
 }
 li {
   padding-top: 4px;
+  padding-bottom: 2px;
+
 }
 
 li::before {
@@ -109,18 +111,9 @@ ol > li {
   padding-top: 7px;
 }
 
-a,
-a:link,
-a:visited {
-  color: var(--accent-color-dark);
-  text-decoration: none;
-  font-size: 1em;
-  font-family: "Roboto Mono", monospace;
-}
-
 a:hover {
   color: var(--accent-color);
-  text-decoration: underline;
+  text-decoration: none;
   font-family: "Roboto Mono", monospace;
 }
 
@@ -227,6 +220,8 @@ a:hover {
   a:hover {
     color: var(--accent-color-light);
     text-decoration: underline;
+    padding-bottom: 2px;
+    text-decoration-thickness: 0.1em;
   }
 }
 @page {
