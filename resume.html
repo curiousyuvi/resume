@@ -3,10 +3,12 @@
 <meta charset="UTF-8">
 <title>Yuvraj Singh</title>
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
 :root {
-  --accent-color: #00ac81;
-  --accent-color-dark: #00ac81;
-  --accent-color-light: #00ac81;
+  --accent-color: #009c4c;
+  --accent-color-dark: #009c4c;
+  --accent-color-light: #009c4c;
   --text-color: #242424;
   --background-color: #ffffff;
 }
@@ -15,8 +17,8 @@ body {
   background: var(--backgound-color);
   line-height: 1;
   margin: 5px 0;
-  font-size: 0.8em;
-  font-family: "Calibri", "Arial";
+  font-size: 0.7em;
+  font-family: sans-serif;
 }
 #resume {
   margin: 0 auto;
@@ -31,30 +33,33 @@ body {
 h1 {
   color: var(--accent-color);
   text-align: center;
-  font-size: 180%;
+  font-size: 200%;
   margin: 0;
-  padding-bottom: 5px;
+  padding-bottom: 8px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
   color: var(--accent-color);
-  border-bottom: 1px dotted var(--accent-color-light);
-  font-size: 110%;
+  border-bottom: 0.3px solid var(--accent-color-light);
+  font-size: 100%;
   font-weight: 800;
-  margin: 10px 0 0 0;
-  padding-bottom: 0;
-  padding-top: 8;
+  margin: 15px 0 0 0;
+  padding-bottom: 1;
+  padding-top: 1;
+  font-family: "Roboto Mono", monospace;
 }
 h3 {
   color: var(--text-color);
-  font-size: 90%;
+  font-size: 100%;
   font-weight: 600;
   margin: 0.6em 0 0 0;
   padding-bottom: 0;
   display: flex;
   justify-content: space-between;
+  font-family: "Roboto Mono", monospace;
 }
 p {
-  margin: 10 0 10 0;
+  margin: 8 0 8 0;
   padding: 0;
 }
 ul {
@@ -62,7 +67,17 @@ ul {
   margin: 0 0;
 }
 li {
-  padding-top: 5px;
+  padding-top: 4px;
+}
+
+li::before {
+  content: "○ ";
+  color: var(--accent-color);
+  font-size: 1em;
+}
+
+h1 + ul > li::before {
+  content: "";
 }
 /* ul immediately after h1 = contact list */
 h1 + ul {
@@ -76,14 +91,15 @@ h1 + ul > li {
   white-space: pre;
 }
 h1 + ul > li:after {
-  content: "  \2022  ";
+  content: " • ";
+  color: var(--accent-color-dark);
 }
 h1 + ul > li:last-child:after {
   content: "";
 }
 /* p immediately after contact list = summary */
 h1 + ul + p {
-  margin: 2em 0;
+  margin: 1.5em 0;
 }
 
 ol {
@@ -100,41 +116,49 @@ a:link,
 a:visited {
   color: var(--accent-color-dark);
   text-decoration: none;
-  font-size: 0.9em;
+  font-size: 1em;
+  font-family: "Roboto Mono", monospace;
 }
 
 a:hover {
   color: var(--accent-color);
   text-decoration: underline;
+  font-family: "Roboto Mono", monospace;
 }
 
 .link {
   display: inline;
   padding-left: 5px;
   padding-bottom: 5px;
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: 600;
+  font-family: "Roboto Mono", monospace;
 }
 .technologies {
   font-weight: 400;
   color: var(--accent-color);
-  font-size: 13px;
+  font-size: 10px;
+  font-family: "Roboto Mono", monospace;
 }
 .marks {
   font-weight: 600;
   display: inline;
+  font-family: "Roboto Mono", monospace;
 }
 .project-heading {
-  font-size: 17px;
+  font-size: 14px;
+  font-family: "Roboto Mono", monospace;
 }
 .ed-heading {
+  font-size: 1em;
   margin: 0;
   padding: 0;
+  font-family: "Roboto Mono", monospace;
 }
 
 @media print {
   body {
-    font-size: 12.3pt;
+    font-size: 10pt;
     margin: 0;
     padding: 0;
     background: var(--background-color);
@@ -165,7 +189,7 @@ a:hover {
 }
 @media screen and (max-width: 800px) {
   body {
-    font-size: 16pt;
+    font-size: 12pt;
     margin: 0;
     padding: 0;
     background: var(--background-color);
@@ -190,6 +214,7 @@ a:hover {
 <h1>Yuvraj Singh</h1>
 <ul>
 <li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#121;&#115;&#103;&#97;&#117;&#114;&#57;&#57;&#49;&#57;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#121;&#115;&#103;&#97;&#117;&#114;&#57;&#57;&#49;&#57;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+<li><a href="https://curiousyuvi.github.io/">Website</a></li>
 <li><a href="https://github.com/curiousyuvi">GitHub</a></li>
 <li><a href="https://www.linkedin.com/in/yuvraj-singh-b85ab71b9/">Linkedin</a></li>
 <li><a href="https://auth.geeksforgeeks.org/user/curiousyuvi/articles">GeeksforGeeks</a></li>
@@ -204,10 +229,19 @@ a:hover {
 <p>Percentage: 85.3/100</p>
 <h2>Experience</h2>
 <h3><span>Software Developer Intern @ <a href="https://codingjr.in/">Coding Jr</a> </span> <span class="technologies">November 2021 &ndash; December 2021</span></h3>
-<p>Coding Jr is an Ed-Tech startup that provides online learning platforms like Mobile Apps and Websites to institutions, schools, teachers ,etc. I worked on various flutter projects, I learned GetX architechture, maintaining and debugging large scale flutter projects.</p>
+<p>Coding Jr is an Ed-Tech startup that provides online learning platforms like Mobile Apps and Websites to institutions, schools, teachers ,etc. I worked on various flutter projects, I learned GetX architechture, maintaining, debugging and scaling projects.</p>
 <h3><span>Technical Writing Intern @ <a href="https://www.geeksforgeeks.org/">GeeksforGeeks</a> </span> <span class="technologies">September 2021 &ndash; November 2021</span></h3>
-<p>GeeksforGeeks is the most popular portal for articles on various programming languages and frameworks. I contributed some articles on Dart and Flutter. I learned about architechture and unit testing in Flutter.</p>
+<p>GeeksforGeeks is the most popular portal for articles on various programming languages and frameworks. I contributed some articles on Dart and Flutter. I learned about architechture and unit testing.</p>
 <h2>Projects</h2>
+<h3><span class="project-heading">Curie <div class="link"><a href="https://github.com/curiousyuvi/curie">GitHub</a></div></span> <span class="technologies">6 Weeks (180+ hours)</span></h3>
+<p>A chat app where users can chat in rooms and listen to synced music, the playback of the music would be controlled by the room admin, and members of the room can suggest music, other members can vote 👍️ or 👎️ to a suggestion, if the suggestion gets majority vote it will start playing.</p>
+<ul>
+<li>Built on <strong>MERN</strong> stack</li>
+<li>Written in <strong>Typescript</strong></li>
+<li>Used <strong>Socket.io</strong> for real-time web-socket connection</li>
+<li>Spotify&rsquo;s Web API for getting tracks metadata and controlling playback</li>
+<li>Spotify&rsquo;s Web-playback SDK for getting playback from Spotify in my app</li>
+</ul>
 <h3><span class="project-heading">CoderStatus <div class="link"><a href="https://github.com/curiousyuvi/coder_status">GitHub</a> | <a href="https://play.google.com/store/apps/details?id=com.curiousyuvi.coderstatus">PlayStore</a></div></span> <span class="technologies">4 Weeks (100+ hours)</span></h3>
 <p>A social media app for competitive programmers to see each others ratings and ranking among friends.</p>
 <ul>
@@ -228,15 +262,15 @@ a:hover {
 </ul>
 <h2>Achievements</h2>
 <ul>
-<li>Global rank <strong>37 of 1700+</strong> in <strong>CodeChef May Lunchtime 2022</strong> (Div. 3).</li>
-<li>Global rank <strong>61 of 13400+</strong> in <strong>CodeChef May Long One 2022</strong> (Div. 4).</li>
+<li><strong>3 Stars</strong> on CodeChef.</li>
+<li>Global rank <strong>37 of 3000+</strong> in <strong>CodeChef May Lunchtime 2022</strong> (Div. 3).</li>
 <li><strong>5 star</strong> at HackerRank in Problem Solving, C, C++, Java, and Javascript.</li>
 </ul>
 <h2>Skills &amp; Technologies</h2>
 <ul>
-<li><strong>Languages</strong>: C/C++, Dart, HTML, CSS, Javascript/Typescript, Java, Kotlin, Python</li>
-<li><strong>Frameworks</strong>: Flutter, React.js, Next.js, Node.js, Express.js, Firebase &amp; Firestore, MongoDB</li>
-<li><strong>Tools</strong>: Git, Github, VSCode, Android Studio, Postman, Figma, Linux, Rive</li>
+<li><strong>Languages</strong>: C/C++, HTML, CSS, Javascript/Typescript, Dart, Java, Kotlin, Python</li>
+<li><strong>Frameworks</strong>: React.js, Next.js, Node.js, Express.js, MongoDB, Flutter, Firebase &amp; Firestore, Socket.io</li>
+<li><strong>Tools</strong>: Git, Github, VSCode, Android Studio, Figma, Postman, Linux</li>
 </ul></div>
 </body>
 </html>

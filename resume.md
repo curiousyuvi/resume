@@ -1,6 +1,7 @@
 # Yuvraj Singh
 
 - <ysgaur9919@gmail.com>
+- [Website](https://curiousyuvi.github.io/)
 - [GitHub](https://github.com/curiousyuvi)
 - [Linkedin](https://www.linkedin.com/in/yuvraj-singh-b85ab71b9/)
 - [GeeksforGeeks](https://auth.geeksforgeeks.org/user/curiousyuvi/articles)
@@ -22,13 +23,23 @@ Percentage: 85.3/100
 
 ### <span>Software Developer Intern @ [Coding Jr](https://codingjr.in/) </span> <span class="technologies">November 2021 -- December 2021</span>
 
-Coding Jr is an Ed-Tech startup that provides online learning platforms like Mobile Apps and Websites to institutions, schools, teachers ,etc. I worked on various flutter projects, I learned GetX architechture, maintaining and debugging large scale flutter projects.
+Coding Jr is an Ed-Tech startup that provides online learning platforms like Mobile Apps and Websites to institutions, schools, teachers ,etc. I worked on various flutter projects, I learned GetX architechture, maintaining, debugging and scaling projects.
 
 ### <span>Technical Writing Intern @ [GeeksforGeeks](https://www.geeksforgeeks.org/) </span> <span class="technologies">September 2021 -- November 2021</span>
 
-GeeksforGeeks is the most popular portal for articles on various programming languages and frameworks. I contributed some articles on Dart and Flutter. I learned about architechture and unit testing in Flutter.
+GeeksforGeeks is the most popular portal for articles on various programming languages and frameworks. I contributed some articles on Dart and Flutter. I learned about architechture and unit testing.
 
 ## Projects
+
+### <span class="project-heading">Curie <div class="link">[GitHub](https://github.com/curiousyuvi/curie)</div></span> <span class="technologies">6 Weeks (180+ hours)</span>
+
+A chat app where users can chat in rooms and listen to synced music, the playback of the music would be controlled by the room admin, and members of the room can suggest music, other members can vote 👍️ or 👎️ to a suggestion, if the suggestion gets majority vote it will start playing.
+
+- Built on **MERN** stack
+- Written in **Typescript**
+- Used **Socket.io** for real-time web-socket connection
+- Spotify's Web API for getting tracks metadata and controlling playback
+- Spotify's Web-playback SDK for getting playback from Spotify in my app
 
 ### <span class="project-heading">CoderStatus <div class="link">[GitHub](https://github.com/curiousyuvi/coder_status) | [PlayStore](https://play.google.com/store/apps/details?id=com.curiousyuvi.coderstatus)</div></span> <span class="technologies">4 Weeks (100+ hours)</span>
 
@@ -52,12 +63,12 @@ A web app to search lyrics for all of your favourite songs.
 
 ## Achievements
 
-- Global rank **37 of 1700+** in **CodeChef May Lunchtime 2022** (Div. 3).
-- Global rank **61 of 13400+** in **CodeChef May Long One 2022** (Div. 4).
+- **3 Stars** on CodeChef.
+- Global rank **37 of 3000+** in **CodeChef May Lunchtime 2022** (Div. 3).
 - **5 star** at HackerRank in Problem Solving, C, C++, Java, and Javascript.
 
 ## Skills & Technologies
 
-- **Languages**: C/C++, Dart, HTML, CSS, Javascript/Typescript, Java, Kotlin, Python
-- **Frameworks**: Flutter, React.js, Next.js, Node.js, Express.js, Firebase & Firestore, MongoDB
-- **Tools**: Git, Github, VSCode, Android Studio, Postman, Figma, Linux, Rive
+- **Languages**: C/C++, HTML, CSS, Javascript/Typescript, Dart, Java, Kotlin, Python
+- **Frameworks**: React.js, Next.js, Node.js, Express.js, MongoDB, Flutter, Firebase & Firestore, Socket.io
+- **Tools**: Git, Github, VSCode, Android Studio, Figma, Postman, Linux
