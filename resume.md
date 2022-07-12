@@ -1,5 +1,7 @@
 # Yuvraj Singh
 
+# <span class="title">Full Stack Developer<span>
+
 - <ysgaur9919@gmail.com>
 - [Website](https://curiousyuvi.github.io/)
 - [GitHub](https://github.com/curiousyuvi)
@@ -7,7 +9,6 @@
 - [GeeksforGeeks](https://auth.geeksforgeeks.org/user/curiousyuvi/articles)
 - [CodeChef](https://codechef.com/users/curiousyuvi007)
 - [HackerRank](https://www.hackerrank.com/curiousyuvi?hr_r=1)
-- [Codeforces](https://codeforces.com/profile/curiousyuvi007)
 
 ## Education
 
@@ -28,6 +29,12 @@ Coding Jr is an Ed-Tech startup that provides online learning platforms like Mob
 ### <span>Technical Writing Intern @ [GeeksforGeeks](https://www.geeksforgeeks.org/) </span> <span class="technologies">September 2021 -- November 2021</span>
 
 GeeksforGeeks is the most popular portal for articles on various programming languages and frameworks. I contributed some articles on Dart and Flutter. I learned about architechture and unit testing.
+
+## Skills & Technologies
+
+- **Languages**: <span class='skill'>C/C++</span> <span class='skill'>HTML</span> <span class='skill'>CSS</span> <span class='skill'>Javascript/Typescript</span> <span class='skill'>Dart</span> <span class='skill'>Java</span> <span class='skill'>Kotlin</span> <span class='skill'>Python</span>
+- **Frameworks**: <span class='skill'>React.js</span> <span class='skill'>Next.js</span> <span class='skill'>Node.js</span> <span class='skill'>Express.js</span> <span class='skill'>MongoDB</span> <span class='skill'>Flutter</span> <span class='skill'>Firebase & Firestore</span> <span class='skill'>Socket.io</span>
+- **Tools**: <span class='skill'>Git</span> <span class='skill'>Github</span> <span class='skill'>VSCode</span> <span class='skill'>Android Studio</span> <span class='skill'>Figma</span> <span class='skill'>Postman</span> <span class='skill'>Linux</span>
 
 ## Projects
 
@@ -66,9 +73,3 @@ A web app to search lyrics for all of your favourite songs.
 - **3 Stars** on CodeChef.
 - Global rank **37 of 3000+** in **CodeChef May Lunchtime 2022** (Div. 3).
 - **5 star** at HackerRank in Problem Solving, C, C++, Java, and Javascript.
-
-## Skills & Technologies
-
-- **Languages**: C/C++, HTML, CSS, Javascript/Typescript, Dart, Java, Kotlin, Python
-- **Frameworks**: React.js, Next.js, Node.js, Express.js, MongoDB, Flutter, Firebase & Firestore, Socket.io
-- **Tools**: Git, Github, VSCode, Android Studio, Figma, Postman, Linux

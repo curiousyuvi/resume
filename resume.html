@@ -9,6 +9,7 @@
   --accent-color: #009c4c;
   --accent-color-dark: #009c4c;
   --accent-color-light: #009c4c;
+  --accent-color-xlight: rgba(100, 255, 175, 0.508);
   --text-color: #242424;
   --background-color: #ffffff;
 }
@@ -33,7 +34,8 @@ body {
 h1 {
   color: var(--accent-color);
   text-align: center;
-  font-size: 200%;
+  font-weight: 600;
+  font-size: 220%;
   margin: 0;
   padding-bottom: 8px;
   font-family: Arial, Helvetica, sans-serif;
@@ -89,9 +91,10 @@ h1 + ul {
 h1 + ul > li {
   display: inline;
   white-space: pre;
+  font-size: 0.9em;
 }
 h1 + ul > li:after {
-  content: " • ";
+  content: "  •  ";
   color: var(--accent-color-dark);
 }
 h1 + ul > li:last-child:after {
@@ -156,6 +159,56 @@ a:hover {
   font-family: "Roboto Mono", monospace;
 }
 
+.skill {
+  position: relative;
+  z-index: 1;
+  margin-right: 7px;
+  margin-bottom: 10px;
+}
+
+.skill::before {
+  content: " ";
+  z-index: -1;
+  display: block;
+  height: 90%;
+  width: 100%;
+  margin-left: -1px;
+  margin-right: -3px;
+  position: absolute;
+  background: var(--accent-color-xlight);
+  transform: rotate(2deg);
+  top: -1px;
+  left: -1px;
+  border-radius: 20% 25% 20% 24%;
+  padding: 2px 0px 0px 2px;
+}
+
+.title {
+  font-size: 50%;
+  color: black;
+  font-weight: normal;
+  z-index: 1;
+  position: relative;
+  font-family: monospace;
+}
+
+.title::before {
+  content: " ";
+  z-index: -1;
+  display: block;
+  height: 90%;
+  width: 100%;
+  margin-left: -1px;
+  margin-right: -3px;
+  position: absolute;
+  background: var(--accent-color-xlight);
+  transform: rotate(2deg);
+  top: -1px;
+  left: -1px;
+  border-radius: 20% 25% 20% 24%;
+  padding: 3px 3px 2px 6px;
+}
+
 @media print {
   body {
     font-size: 10pt;
@@ -212,6 +265,7 @@ a:hover {
 <body>
 <div id="resume">
 <h1>Yuvraj Singh</h1>
+<h1><span class="title">Full Stack Developer<span></h1>
 <ul>
 <li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#121;&#115;&#103;&#97;&#117;&#114;&#57;&#57;&#49;&#57;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#121;&#115;&#103;&#97;&#117;&#114;&#57;&#57;&#49;&#57;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
 <li><a href="https://curiousyuvi.github.io/">Website</a></li>
@@ -220,7 +274,6 @@ a:hover {
 <li><a href="https://auth.geeksforgeeks.org/user/curiousyuvi/articles">GeeksforGeeks</a></li>
 <li><a href="https://codechef.com/users/curiousyuvi007">CodeChef</a></li>
 <li><a href="https://www.hackerrank.com/curiousyuvi?hr_r=1">HackerRank</a></li>
-<li><a href="https://codeforces.com/profile/curiousyuvi007">Codeforces</a></li>
 </ul>
 <h2>Education</h2>
 <h3><span class="ed-heading">Bachelor of Technology in Computer Science &amp; Information Technology </span > <span class="technologies">2020 &ndash; 2024 </span></h3>
@@ -232,6 +285,12 @@ a:hover {
 <p>Coding Jr is an Ed-Tech startup that provides online learning platforms like Mobile Apps and Websites to institutions, schools, teachers ,etc. I worked on various flutter projects, I learned GetX architechture, maintaining, debugging and scaling projects.</p>
 <h3><span>Technical Writing Intern @ <a href="https://www.geeksforgeeks.org/">GeeksforGeeks</a> </span> <span class="technologies">September 2021 &ndash; November 2021</span></h3>
 <p>GeeksforGeeks is the most popular portal for articles on various programming languages and frameworks. I contributed some articles on Dart and Flutter. I learned about architechture and unit testing.</p>
+<h2>Skills &amp; Technologies</h2>
+<ul>
+<li><strong>Languages</strong>: <span class='skill'>C/C++</span> <span class='skill'>HTML</span> <span class='skill'>CSS</span> <span class='skill'>Javascript/Typescript</span> <span class='skill'>Dart</span> <span class='skill'>Java</span> <span class='skill'>Kotlin</span> <span class='skill'>Python</span></li>
+<li><strong>Frameworks</strong>: <span class='skill'>React.js</span> <span class='skill'>Next.js</span> <span class='skill'>Node.js</span> <span class='skill'>Express.js</span> <span class='skill'>MongoDB</span> <span class='skill'>Flutter</span> <span class='skill'>Firebase &amp; Firestore</span> <span class='skill'>Socket.io</span></li>
+<li><strong>Tools</strong>: <span class='skill'>Git</span> <span class='skill'>Github</span> <span class='skill'>VSCode</span> <span class='skill'>Android Studio</span> <span class='skill'>Figma</span> <span class='skill'>Postman</span> <span class='skill'>Linux</span></li>
+</ul>
 <h2>Projects</h2>
 <h3><span class="project-heading">Curie <div class="link"><a href="https://github.com/curiousyuvi/curie">GitHub</a></div></span> <span class="technologies">6 Weeks (180+ hours)</span></h3>
 <p>A chat app where users can chat in rooms and listen to synced music, the playback of the music would be controlled by the room admin, and members of the room can suggest music, other members can vote 👍️ or 👎️ to a suggestion, if the suggestion gets majority vote it will start playing.</p>
@@ -265,12 +324,6 @@ a:hover {
 <li><strong>3 Stars</strong> on CodeChef.</li>
 <li>Global rank <strong>37 of 3000+</strong> in <strong>CodeChef May Lunchtime 2022</strong> (Div. 3).</li>
 <li><strong>5 star</strong> at HackerRank in Problem Solving, C, C++, Java, and Javascript.</li>
-</ul>
-<h2>Skills &amp; Technologies</h2>
-<ul>
-<li><strong>Languages</strong>: C/C++, HTML, CSS, Javascript/Typescript, Dart, Java, Kotlin, Python</li>
-<li><strong>Frameworks</strong>: React.js, Next.js, Node.js, Express.js, MongoDB, Flutter, Firebase &amp; Firestore, Socket.io</li>
-<li><strong>Tools</strong>: Git, Github, VSCode, Android Studio, Figma, Postman, Linux</li>
 </ul></div>
 </body>
 </html>
